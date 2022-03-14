@@ -24,12 +24,17 @@
 # lista2 = [i for i in lista1 if i % 2 == 0]
 # print (lista2)
 
-#zadanie_3
-
-lista = {'bułki':'sztuka','pomidory':'kilogram',
-         'chleb':'sztuka','por':'sztuka',
-         'ziemniaki':'kilogram','mleko':'litr',
-         'woda mineralna':'litr'}
-
-
-lista1 = [{lista.keys():lista.values() for ('sztuka') in lista.values()}]
+# #zadanie_3
+#
+# lista = {'bułki':'sztuka','pomidory':'kilogram',
+#          'chleb':'sztuka','por':'sztuka',
+#          'ziemniaki':'kilogram','mleko':'litr',
+#          'woda mineralna':'litr'}
+#
+# #wersja_z_pętlą
+# # for key in lista:
+# #     if lista[key] == 'sztuka':
+# #         print(key, lista[key])
+# #wersja_comprehension
+# lista1 = {key:value for key, value in lista.items() if lista[key]=='sztuka'}
+# print(lista1)
