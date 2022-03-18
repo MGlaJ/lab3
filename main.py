@@ -38,3 +38,36 @@
 # #wersja_comprehension
 # lista1 = {key:value for key, value in lista.items() if lista[key]=='sztuka'}
 # print(lista1)
+
+# # zadanie_4
+# # w trójkącie prostokątnym (a^2)+(b^2)=(c^2), gdzie a i b to przyprostokątne, oraz c to przeciwprostokątna
+#
+# def trójkąt_prostokątny(a,b,c):
+#     Pitagoras = a*a + b*b
+#     if Pitagoras == c*c:
+#         print('Badany trójkąt jest prostokątny!')
+#     else:
+#         print('Ten trójkąt nie jest prostokątny...')
+#
+# print(trójkąt_prostokątny(3,4,5))
+# print(trójkąt_prostokątny(3,5,12))
+
+# # zadanie_5
+# def pole_trapezu(a=1,b=2,h=1):
+#     return ((a+b)/2)*h
+# print(pole_trapezu(a=4))
+# print(pole_trapezu(a=5,h=2))
+
+# zadanie_6
+def ciag(a=1,b=4,ile=10):
+    print(a*(pow((a*b),(ile-1)))*(pow(b,(ile-2))))
+
+print(ciag())
+
+
+
+
+
+
+
+
