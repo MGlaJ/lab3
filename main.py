@@ -58,12 +58,29 @@
 # print(pole_trapezu(a=4))
 # print(pole_trapezu(a=5,h=2))
 
-# zadanie_6
-def ciag(a=1,b=4,ile=10):
-    print(a*(pow((a*b),(ile-1)))*(pow(b,(ile-2))))
+# # zadanie_6
+# def ciag(a=1,b=4,ile=10):
+#     print(a*(pow((a*b),(ile-1)))*(pow(b,(ile-2))))
+#
+# print(ciag())
+#
+# # zadanie_7
+# def ciagg(a=1, b=4, ile=10):
+#     print((a*((a*b)**(ile-1)))*(b**(ile-2)))
+#
+# print(ciagg())
 
-print(ciag())
+# # zadanie_8
+# def lista_zakupow(**zakupy):
+#     ile_produktow=len(zakupy)
+#     zaplata=0
+#     for x in zakupy:
+#         zaplata = zaplata + zakupy[x]
+#     print(zaplata, ile_produktow)
+#
+# print(lista_zakupow(mleko=4, jogurt=2, bulka=1, ser=7))
 
+#zadanie_9
 
 
 
