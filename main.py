@@ -89,8 +89,10 @@
 # podzielne = open("plik.txt", "w")
 # p = [l for l in range(0,100) if  l % 4 == 0]
 # podzielne.write(str(p))
-
-
+#
+# # zadanie_11
+# podzielne = open("plik.txt", "r")
+# print(podzielne.read())
 
 
 
