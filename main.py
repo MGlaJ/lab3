@@ -80,7 +80,11 @@
 #
 # print(lista_zakupow(mleko=4, jogurt=2, bulka=1, ser=7))
 
-#zadanie_9
+# #zadanie_9
+#
+# from ciagi import *
+
+
 
 
 

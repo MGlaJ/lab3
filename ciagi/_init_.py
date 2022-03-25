@@ -1,0 +1,1 @@
+_all_ = ["ciag_arytmetyczny", "ciąg_geometryczny"]
